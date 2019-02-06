@@ -1,0 +1,14 @@
+{
+	"require": {
+		"php": "^7.2",
+		"chillerlan/php-qrcode": "3.0.3",
+		"fbett/le_acme2": "^1.1",
+		"google/apiclient": "^2.0",
+		"phpmailer/phpmailer": "^6.0",
+		"league/oauth2-google": "^3.0",
+		"alymosul/exponent-server-sdk-php": "^1.1"
+	},
+	"require-dev": {
+		"m6w6/pharext": "^4.1"
+	}
+}

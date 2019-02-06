@@ -1,0 +1,25 @@
+[req]
+distinguished_name = req_distinguished_name
+req_extensions = v3_req
+input_password = 0000
+output_password = 0000
+prompt = no
+utf8 = yes
+[req_distinguished_name]
+C = DE
+ST = BY
+L = Würzburg
+O = FHWS
+OU = Programmierprojekt
+CN = 194.95.221.67
+
+# output_password = sdaflijsadfoafjalsdfassASDFASFSE
+[v3_req]
+keyUsage = keyEncipherment, dataEncipherment
+extendedKeyUsage = serverAuth
+subjectAltName = @alt_names
+[alt_names]
+DNS.1 = fhws.de
+DNS.2 = 127.0.0.1
+DNS.3 = ::1
+DNS.4 = localhost
