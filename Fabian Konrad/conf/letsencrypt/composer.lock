@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7369c02442a927fc5703a2cfcea0eb44",
+    "packages": [
+        {
+            "name": "fbett/le_acme2",
+            "version": "1.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fbett/le-acme2-php.git",
+                "reference": "a03379dac9768226e3ee777288e32466b4fe9329"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fbett/le-acme2-php/zipball/a03379dac9768226e3ee777288e32466b4fe9329",
+                "reference": "a03379dac9768226e3ee777288e32466b4fe9329",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "LE_ACME2": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabian Bett",
+                    "homepage": "https://www.bett-ingenieure.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Letsencrypt PHP ACME v2 client",
+            "homepage": "https://github.com/fbett/le-acme2-php",
+            "time": "2018-10-27T15:46:34+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

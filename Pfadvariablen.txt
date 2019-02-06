@@ -1,0 +1,8 @@
+PATH Administrator:
+%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Smart Projects\IsoBuster;C:\projekt\xampp\apache\bin;C:\projekt\xampp\php;C:\ProgramData\ComposerSetup\bin
+PATH Client:
+C:\Users\student\AppData\Local\GitHubDesktop\bin;C:\Users\student\AppData\Roaming\Composer\vendor\bin
+WWWROOT:
+C:\projekt\xampp\htdocs
+XAMPP:
+C:\projekt\xampp
